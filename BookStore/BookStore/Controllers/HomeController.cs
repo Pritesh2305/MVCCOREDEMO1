@@ -23,6 +23,11 @@ namespace BookStore.Controllers
             return View();
         }
 
+        public string Test()
+        {
+            return "Hello";
+        }
+
         public IActionResult Privacy()
         {
             return View();
